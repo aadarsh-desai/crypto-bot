@@ -3,7 +3,9 @@ from dotenv import load_dotenv
 import os
 
 # Load environment variables
-load_dotenv()
+# load_dotenv()
+load_dotenv(dotenv_path='./.env')
+
 
 api_key = os.getenv("BINANCE_API_KEY")
 api_secret = os.getenv("BINANCE_API_SECRET")
