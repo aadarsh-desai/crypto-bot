@@ -5,8 +5,8 @@ from sklearn.linear_model import LogisticRegression
 
 # ✅ Binance API Setup
 exchange = ccxt.binance({
-    'apiKey': '6c99a27e5727d38011a37f9ccec4a31a581a9bb7c3c7e8ecf054d7ba1da3abfa',
-    'secret': '7c2fde9aa087dc224f6488f31873ff32a67f786ca387bea81e2fc70cbde75f78',
+    'apiKey': 'BINANCE_API_KEY',
+    'secret': 'BINANCE_API_SECRET',
     'enableRateLimit': True
 })
 
